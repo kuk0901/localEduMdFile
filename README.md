@@ -44,7 +44,7 @@
 
   10. class, instance
 
-  11. package
+  11. package(간단)
 
   12. 변수의 종류(선언 위치)
 
@@ -71,3 +71,17 @@
   23. 오버라이딩(Overriding)
 
   24. super, super()
+
+  25. 패키지(상세), 클래스 풀네임, 패키지 선언
+
+  26. import문, 선언법
+
+  27. 캡슐화(Encapsulation) 간단 개념
+
+  28. 제어자(Modifier)
+
+  29. 접근 제어자(Access Modifier)
+
+  30. getter & setter, 도서관리 프로그램 실습
+
+  31. 다형성(Polymorphism)
