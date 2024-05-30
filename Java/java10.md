@@ -324,21 +324,28 @@
   ```java
   // Animal class
   public abstract class Animal {
-    String kind;
-    String name;
 
-    public abstract void getName();
+    public abstract void name();
+
+    public void kind() {
+
+    }
   }
   ```
 
   ```java
   // Dog class
   public class Dog extends Animal {
-    String kind = "동물";
-    String name = "강아지";
 
-    public void getName() {
+    // 추상 메서드 구현부 작성
+    public void name() {
       System.out.println("강아지");
+    }
+
+    // Overriding
+    @Override
+    public void kind() {
+      System.out.println("동물");
     }
   }
   ```
@@ -350,7 +357,8 @@
     public static void main(String[] args) {
       Dog dog = new Dog();
 
-      dog.getName();
+      dog.name();
+      dog.kind();
     }
   }
   ```
