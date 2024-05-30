@@ -103,7 +103,7 @@
       System.out.println(fe1);
   //    fe1.water();
 
-      // 부모 객체는 자신 참조 변수에 할당 불가능
+      // 부모 객체는 자식 참조 변수에 할당 불가능
   //    fe1 = (FireEngine) car;
   //    fe1.drive();
   //    fe1.stop();
