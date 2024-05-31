@@ -1,97 +1,133 @@
 # 국비 지원 프로그램
 
-## 수업 내용 정리
+## C 언어
 
-- C
+- C언어 기본 개념
 
-  1. C언어 기본 개념
+```
+- Data Type
 
-  2. Data Type
+- 연산자, Casting(형 변환)
 
-  3. 연산자
-
-  4. Casting(형 변환)
-
-  5. 조건문(if / if-else / if-if)
-
-  6. 중첩 조건문
-
-  7. 반복문(while문)
-
-  8. 중첩 반복문
+- 제어문
+```
 
 <br />
 
-- Java
+## Java
 
-  1. JDK, JRE, JAVA
+- Java 언어에 대한 이해
 
-  2. Data Type
+```
+- JDK, JRE, JAVA
 
-  3. Casting(형 변환)
+- JVM 메모리 구조
+```
 
-  4. switch문, switch문 + 반복문
+  <br />
 
-  5. 반복문(for문)
+- Java 기초 문법
 
-  6. 배열(Array)
+```
+- Data Type, Casting(형 변환)
 
-  7. 배열(Array) + for문
+- 제어문
 
-  8. 2차원 배열
+- 배열(Array), 2차원 배열
+```
 
-  9. 객체 지향 이론
+  <br />
 
-  10. class, instance
+- 객체 지향 이론
 
-  11. package(간단)
+```
+- 캡슐화(Encapsulation) 간단 개념
 
-  12. 변수의 종류(선언 위치)
+- 다형성(Polymorphism), 다형성(Polymorphism)과 casting
+```
 
-  13. 메서드(method)
+  <br />
 
-  14. return
+- class 기초
 
-  15. JVM 메모리 구조
+```
+- class, instance, method, return
 
-  16. class + method
+- 변수의 종류(선언 위치)
 
-  17. 변수의 생명주기(Life Cycle)
+- 변수의 생명주기(Life Cycle)
 
-  18. 매개변수(parameter)
+- 매개변수(parameter)
+```
 
-  19. 메서드 오버로딩(Overloading)
+  <br />
 
-  20. 생성자(Constructor)
+- 변수
 
-  21. 상속(inheritance)
+```
+- 변수의 종류(선언 위치)
 
-  22. 포함 관계(Composite)
+- 변수의 생명주기(Life Cycle)
 
-  23. 오버라이딩(Overriding)
+- 매개변수(parameter)
+```
 
-  24. super, super()
+  <br />
 
-  25. 패키지(상세), 클래스 풀네임, 패키지 선언
+- class 세부
 
-  26. import문, 선언법
+```
+- 메서드 오버로딩(Overloading)
 
-  27. 캡슐화(Encapsulation) 간단 개념
+- 생성자(Constructor)
 
-  28. 제어자(Modifier)
+- 상속(inheritance)
 
-  29. 접근 제어자(Access Modifier)
+- 포함 관계(Composite)
 
-  30. getter & setter, 도서관리 프로그램 실습
+- 오버라이딩(Overriding)
 
-  31. 다형성(Polymorphism)
+- super, super()
 
-  32. 다형성(Polymorphism)과 casting
+- getter & setter
+```
 
-  33. 참조 변수의 형 변환
+<br />
 
-  34. 다형성 인수 사용
+- 패키지(package)
 
-  35. 추상 클래스(Abstract class)
+```
+- 클래스 풀네임
 
-  36. 추상 메서드
+- 패키지 선언
+
+- import문, 선언법
+```
+
+<br />
+
+- 객체 지향 프로그래밍
+
+```
+- 제어자(Modifier), 접근 제어자(Access Modifier)
+
+- 참조 변수의 형 변환
+
+- 다형성 인수 사용
+
+- 추상 클래스(Abstract class), 추상 메서드
+
+- 인터페이스(interface)
+
+- 인터페이스(interface)와 추상 클래스(Abstract class), 추상 메서드 혼합해 사용
+```
+
+<br />
+
+- String class 이해
+
+```
+- String class
+
+- String Method
+```
