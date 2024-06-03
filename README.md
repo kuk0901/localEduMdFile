@@ -131,3 +131,29 @@
 
 - String Method
 ```
+
+<br />
+
+- Wrapper class
+
+```
+- 기본형과 문자열 간의 변환 방법
+```
+
+<br />
+
+- 예외 처리(Exception Handling)
+
+```
+- 에러 종류
+
+- 예외 처리 정의, 목적 및 방법
+
+- try-catch-finally문
+
+- 예외 발생시키기(throw)
+
+- 메서드에 예외 선언(throws)
+
+- 사용자 정의 예외
+```
