@@ -203,7 +203,7 @@
   - HashMap
 
   ```java
-  Map<String, Integer> humanMap = new HashMAp<>();
+  Map<String, Integer> humanMap = new HashMap<>();
 
   humanMap.put("Kim", 1);
   humanMap.put("Lee", 1);
