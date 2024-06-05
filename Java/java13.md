@@ -202,6 +202,12 @@
 
   - HashMap
 
+    - 생성, 추가, 조회
+
+    - put(key, value) : 생성, 추가
+
+    - get(key) : key에 해당하는 value 반환
+
   ```java
   Map<String, Integer> humanMap = new HashMap<>();
 
