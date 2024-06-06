@@ -26,7 +26,7 @@
 
 - Casting(형 변환)
 
-  - booleand을 제외한 나머지 7개의 기본형은 서로 형 변환 가능
+  - boolean을 제외한 나머지 7개의 기본형은 서로 형 변환 가능
 
   - 기본형과 참조형은 서로 형 변환 불가능
 
@@ -186,8 +186,28 @@
             }
 
             while (firNum <= 9) {
-              System.out.printf("%d * %d = %d \t", firNm, secNum, firNum * secNum)
+              System.out.printf("%d * %d = %d\t", firNum, secNum, firNum * secNum);
+              firNum++;
             }
+            System.out.println();
+            secNum++;
+          }
+        case 2:
+          while (firNum <= 9) {
+            secNum = 1;
+
+            if (firNum > 9) {
+              break;
+            }
+
+            while (secNum <= 9) {
+              System.out.printf("%d * %d = %d\t", firNum, secNum, firNum * secNum);
+              secNum++;
+            }
+
+            System.out.println();
+            System.out.println();
+            firNum++;
           }
       }
     }
@@ -481,9 +501,8 @@
       Scanner sc = new Scanner(System.in);
       int acc = 0;
 
-      System.out.print("숫자를 입력해 주세요(0 입력 시 프로그램 종료): ");
-
       while (true) {
+        System.out.print("숫자를 입력해 주세요(0 입력 시 프로그램 종료): ");
         int userNum = sc.nextInt();
         acc += userNum;
 
@@ -492,8 +511,10 @@
         }
         System.out.print("누적 합계: " + acc + "\n");
       }
-      System.out.print("최종 합계: " + acc + "\n");
+
+      System.out.print("\n최종 합계: " + acc);
       System.out.println("프로그램 종료");
+      sc.close();
     }
   }
   ```
@@ -518,7 +539,7 @@
         System.out.print(num + "은(는) 소수가 아닙니다.\n");
       } else if ((num > 2 && num % 2 == 0) || (num > 3 && num % 3 == 0)) {
         System.out.print(num + "은(는) 소수가 아닙니다.\n");
-      } else if ((num > 2 && num % 2 != 0) || (num > 3 && num % 3 != 0)) {
+      } else if ((num == 2) | (num > 2 && num % 2 != 0) || (num > 3 && num % 3 != 0)) {
         System.out.print(num + "은(는) 소수입니다.\n");
       }
 
@@ -526,6 +547,8 @@
     }
   }
   ```
+
+  > 그냥 에라토스테네스의 체 사용..
 
   <br />
 
