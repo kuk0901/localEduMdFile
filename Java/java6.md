@@ -47,6 +47,20 @@
   }
   ```
 
+  <br />
+
+  - GugudanTest(main class)
+
+  ```java
+  public class GugudanTest() {
+    public static void main(String[] args) {
+      GugudanVO gg = new GugudanVO();
+
+      gg.wantDanPrint(2);
+    }
+  }
+  ```
+
 <br />
 
 - 사칙연산 클래스 만들어 사용
@@ -88,6 +102,28 @@
       }
 
       return firstNum % secondNum;
+    }
+  }
+  ```
+
+  <br />
+
+  - MyMathTest(main class)
+
+  ```java
+  public class MyMathTest() {
+    public static void main(String[] args) {
+      MyMathVO mm = new MyMathVO();
+
+      mm.firstNum = 4;
+      mm.secondNum = 2;
+
+      System.out.println(mm.add());
+      System.out.println(mm.sub());
+      System.out.println(mm.mul());
+      System.out.println(mm.div());
+      System.out.println(mm.rem());
+
     }
   }
   ```
