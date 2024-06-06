@@ -82,9 +82,9 @@
     totalScore += scoreArr[i];
   }
 
-  avg = (double) totalScore / scoreArr.length;
+  avgScore = (double) totalScore / scoreArr.length;
 
-  avg = (int)(((double) totalScore / scoreArr.length + 0.005) 100) / 100.0;
+  avgScore = (int)((avgScore + 0.005) * 100) / 100.0;
 
   System.out.println("총점: " + totalScore);
   System.out.println("평균: " + avgScore);
@@ -127,16 +127,19 @@
 
 - 로또 번호를 출력하는 프로그램
 
+  - 치환용 임시 변수 사용
+
   ```java
   int[] ballArr = new int[45];
 
-  for (int i = 0; i < ballArr; i++) {
+  // 1~45 숫자 Array에 담음
+  for (int i = 0; i < ballArr.length; i++) {
     ballArr[i] = i + 1;
   }
 
   int temp = 0; // 치환용 임시 변수
   int n = 0; // 인덱스 접근
-
+  // 로또 번호 생성 => index 변경
   for (int i = 0; i < 6; i++) {
     n = (int) (Math.random() * 45);
 
@@ -146,7 +149,7 @@
   }
 
   for (int i = 0; i < 6; i++) {
-    System.out.println("[" + ( i + 1) + "]" + " 자동으로 나온 로또 번호: " + ballArr[i];)
+    System.out.println("[" + ( i + 1) + "]" + " 자동으로 나온 로또 번호: " + ballArr[i]);
   }
 
   for (int i = 0; i < ballArr.length; i++) {
@@ -157,6 +160,8 @@
 <br />
 
 - 버블 정렬을 이용한 배열의 숫자 오름차순
+
+  - 버블 정렬(단순 교환법): 인접한 데이터를 교환하는 처리 반복해 최종적으로 모든 데이터를 오름차순 || 내림차순으로 정렬하는 알고리즘
 
   ```java
   int[] jumsuArr = { 70, 90, 50, 40, 100 };
@@ -170,13 +175,17 @@
   int temp = 0;
 
   for (int i = 0; i < jumsuArr.length; i++) {
+
     for (int n = 0; n < jumsuArr.length - 1; n++) {
+
       if (jumsuArr[n] > jumsuArr[n + 1]) {
         temp = jumsuArr[n];
         jumsuArr[n] = jumsuArr[n + 1];
         jumsuArr[n + 1] = temp;
       }
+
     }
+
   }
 
   for (int i = 0; i < jumsuArr.length; i++) {
@@ -207,7 +216,9 @@
   ```
   - 실제 세계는 사물(객체)로 이루어져 있으며, 발생하는 모든 사건들은 사물 간의 상호작용임
 
-  - 실제 사물의 속성과 기능을 분석한 다음, 데이터(변수)와 함수로 정의함으로써 실제 세계를 컴퓨터 속에 옮겨 놓은 것과 같은 가상 세계를 구현하고 이 가상 세계에서 모의실험을 함으로써 많은 시간과 비용 절약 가능
+  - 실제 사물의 속성과 기능을 분석한 다음, 데이터(변수)와 함수로 정의함으로써
+    실제 세계를 컴퓨터 속에 옮겨 놓은 것과 같은 가상 세계를 구현하고
+    이 가상 세계에서 모의실험을 함으로써 많은 시간과 비용 절약 가능
   ```
 
   <br />
@@ -240,9 +251,7 @@
 
     - 객체를 정의해 놓은 것, 객체의 설계도 || 툴
 
-  - class의 용도
-
-    - 객체 생성에 사용
+    - 용도: 객체 생성에 사용
 
   <br />
 
@@ -250,17 +259,11 @@
 
     - 실제로 존재하는 것, 사물 또는 개념
 
-  - 객체의 용도
+    - 용도: 객체가 갖고 있는 기능과 속성에 따라 다름
 
-    - 객체가 갖고 있는 기능과 속성에 따라 다름
+    - 유형의 객체: 책상, 의자, 자동차, TV와 같은 사물
 
-  - 유형의 객체
-
-    - 책상, 의자, 자동차, TV와 같은 사물
-
-  - 무형의 객체
-
-    - 수학 공식, 프로그램 에러, 시간 같은 논리나 개념
+    - 무형의 객체: 수학 공식, 프로그램 에러, 시간 같은 논리나 개념
 
   ```
   ex)
@@ -274,33 +277,37 @@
 
 - 객체와 인스턴스
 
-  - 클래스로부터 객체를 만드는 과정을 클래스의 인스턴스화 라고 하며, 어떤 클래스로부터 만들어진 객체를 그 클래스의 인스턴스(instance)라고 함
+  - 클래스의 인스턴스화: 클래스로부터 객체를 만드는 과정
+
+  - 클래스의 인스턴스(instance): 어떤 클래스로부터 만들어진 객체
 
 <br />
 
-- 객체의 구성 요소 => 속성과 기능
+- 객체의 구성 요소
+
+  1. 속성(property)
+
+     - 멤버(member) 변수, 특성(attribute), 필드 등
+
+  2. 기능(function)
+
+     - 메서드(method), 함수, 행위 등
 
   ```
+  ex)
+
   - TV의 속성 : 크기, 길이, 높이, 색상, 볼륨, 채널 등
 
   - TV의 기능 : 켜기, 끄기, 볼륨 높이기, 볼륨 낮추기, 채널 변경하기 등
   ```
 
-  - 속성(property)
+<br />
 
-    - 멤버(member) 변수, 특성(attribute), 필드 등
+- 사용자 정의 타입(user-defined type)
 
-  <br />
+  > class
 
-  - 기능(function)
-
-    - 메서드(method), 함수, 행위 등
-
-  <br />
-
-  - 사용자 정의 타입(user-defined type) => class
-
-    - 기본적인 것들만 예측해 만들어 주고 자신에게 맞는 것이 필요하다면 스스로 타입을 만들어 사용하라고 제공해 준 것
+  - 기본적인 것들만 예측해 만들어 주고 자신에게 맞는 것이 필요하다면 스스로 타입을 만들어 사용하라고 제공해 준 것
 
 <br />
 
@@ -310,9 +317,13 @@
 
   - 변수명 = new 클래스명();
 
+  > 합쳐서 작성 시 "클래스명 변수명 = new 클래스명();" 형태
+
   ```java
   TvVO tv1;
   tv1 = new TvVO();
+
+  TvVO tv2 = new TvVO();
   ```
 
   <br />
