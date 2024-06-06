@@ -86,7 +86,7 @@
 
   > 낙타 표기법 : indexOf <br /><br />
   > 파스칼 표기법 : StringBuffer <br /><br />
-  > 스네이터 표기법 : student_age
+  > 스네이크 표기법 : student_age
 
 <br />
 
