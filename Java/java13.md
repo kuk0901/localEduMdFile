@@ -138,7 +138,7 @@
         totalScore += score;
       }
 
-      avg = Math.ceil(((double)totalScore / scoreSize()) * 100) / 100.0;
+      avg = Math.ceil(((double)totalScore / scoreList.size()) * 100) / 100.0;
 
       for (int i = 0; i < scoreList.size(); i++) {
         System.out.println((i + 1) + "번째 값: " + scoreList.get(i));
