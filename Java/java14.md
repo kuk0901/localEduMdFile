@@ -122,7 +122,7 @@
         for (int n = 0; n < studyGroupList.size(); n++) {
 
           number = n + 1;
-          System.out.println(groupNum * 100 + number + "호: " + studyGroupList.get(n));
+          System.out.println(groupNum + "0" + number + "호: " + studyGroupList.get(n));
         }
       }
     }
@@ -196,7 +196,7 @@
   | -------------- | ---------------------------------------- | ------------------------------ |
   | y              | 년도                                     | 2024                           |
   | Y              | 년도                                     | 2024(일반적으로 소문자 사용함) |
-  | M              | 월(1~12 또는 1월~12월)                   | 10 또는 10월, OCT              |
+  | M              | 월(1\~12 또는 1월\~12월)                 | 10 또는 10월, OCT              |
   | d              | 월의 몇 번째 일(1~31)                    | 5                              |
   | E              | 요일                                     | 수                             |
   | a              | 오전/오후(AM, PM)                        | PM                             |
