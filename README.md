@@ -167,9 +167,9 @@
 - Collection Framework
 
   ```
-  - List
+  - List: ArrayList
 
-  - Map
+  - Map: HashMap
 
   - Iterator
   ```
