@@ -189,3 +189,61 @@
 <br />
 
 - 팀 프로젝트(간접 체험), **커피 매장** 프로젝트
+
+<br />
+
+## Database(oracle)
+
+- 데이터베이스(Database) 개념
+
+  ```
+  - DBMS(Database Management System)
+
+  - RDBMS(Relational DBMS)
+
+  - 데이터 유형
+
+  - 계정 이슈
+
+  - 코드 구조 파악
+
+  - Alias(별칭)
+
+  - TABLE(테이블) 용어
+  ```
+
+<br />
+
+- SQL(Structured Query Language)
+
+  ```
+  - SQL 언어 개념
+
+  - SQL 문장 종류
+
+    - 데이터 조작어(DML)
+
+    - 데이터 정의어(DDL)
+
+    - 데이터 제어어(DCL)
+
+    - 트랜잭션 제어어(TCL)
+  ```
+
+<br />
+
+- CROUD
+
+  ```
+  - SELECT
+
+  - INSERT
+
+  - UPDATE
+
+  - DELETE
+  ```
+
+<br />
+
+- WHERE 절(조건절)
