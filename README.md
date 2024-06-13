@@ -268,7 +268,7 @@
 
 <br />
 
-- 함수(function)
+- 단일행 함수(function)
 
   ```
   - 단일행 함수 특징
@@ -283,5 +283,27 @@
 
   - NULL 함수
 
-  - DECODE 함수
+  - 조건문 관련 함수: DECODE 함수, CASE 함수
   ```
+
+<br />
+
+- 그룹 함수(function)
+
+  ```
+  - COUNT()
+
+  - SUM()
+
+  - AVG()
+
+  - MAX()
+
+  - MIN()
+  ```
+
+<br />
+
+- GROUP BY절
+
+- HAVING절
