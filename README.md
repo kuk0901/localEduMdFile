@@ -207,9 +207,11 @@
 
   - 코드 구조 파악
 
-  - Alias(별칭)
+  - Alias(별칭): SELECT 절에서 칼럼, FROM 절에서 테이블
 
   - TABLE(테이블) 용어
+
+  - 쿼리 실행 순서
   ```
 
 <br />
@@ -307,3 +309,30 @@
 - GROUP BY절
 
 - HAVING절
+
+<br />
+
+- JOIN
+
+  ```
+  - Oracle JOIN
+
+    - EQUI JOIN(동등 조인)
+
+    - NON-EQUI JOIN(비동등 조인)
+
+    - OUTER JOIN(외부 조인): (+)
+
+    - SELF JOIN(자체 조인)
+
+    - CROSS JOIN(상호 조인)
+
+
+  - ANSI JOIN(표준 조인 기법)
+
+    - CROSS JOIN + ON
+
+    - INNER JOIN(내부 조인) + ON
+
+    - OUTER JOIN(외부 조인) + ON : LEFT, RIGHT, FULL
+  ```
