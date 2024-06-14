@@ -410,3 +410,66 @@
   ON E.DEPTNO = D.DEPTNO
   ORDER BY E.DEPTNO;
   ```
+
+  <br />
+
+  - GK 포지션의 선수별 연고지명, 팀명, 구장명을 선수 이름 사전 순으로 정렬해 조회
+
+  - 선수명 포지션 연고지명 팀명 구장명
+
+  ```sql
+  SELECT PLAYER_NAME 선수명
+    , POSITION 포지션
+    , REGION_NAME 연고지명
+    , TEAM_NAME 팀명
+    , STADIUM_NAME 구장명
+  FROM PLAYER P INNER JOIN TEAM T
+  ON P.TEAM_ID = T.TEAM_ID
+  INNER JOIN STADIUM S
+  ON T.STADIUM_ID = S.STADIUM_ID
+  WHERE POSITION = 'GK'
+  ORDER BY PLAYER_NAME;
+  ```
+
+  <br />
+
+  - 홈팀이 없는 경기장의 정보만 조회하되 NULL로 나오는 값은 전부 공백으로 표기
+
+  - 경기장명 경기장ID 좌석수 홈팀ID 팀명
+
+  ```sql
+  SELECT S.STADIUM_NAME 경기장명
+    , S.STADIUM_ID 경기장ID
+    , NVL(TO_CHAR(SEAT_COUNT), ' ') 좌석수
+    , NVL(HOMETEAM_ID, ' ') 홈팀ID
+    , NVL(T.TEAM_NAME, ' ') 팀명
+  FROM STADIUM S LEFT OUTER JOIN TEAM T
+  ON S.STADIUM_ID = T.STADIUM_ID
+  WHERE HOMETEAM_ID IS NULL;
+  ```
+
+  <br />
+
+  - 홈팀이 3점 이하 차이로 패배한 경기의 경기장 이름, 일정, 홈팀 원정팀 명 정보 조회
+
+  - 경기날짜는 2012-07-14와 같은 형태
+
+  - 경기장명 경기장ID 경기날짜 홈팀명 상대팀명 홈팀\_SCORE 상대팀\_SCORE
+
+  ```sql
+  SELECT STADIUM_NAME 경기장명
+      , ST.STADIUM_ID 경기장ID
+      , TO_CHAR(TO_DATE(SCHE_DATE, 'YYYYMMDD'), 'YYYY-MM-DD') 경기날짜
+      , MT.TEAM_NAME 홈팀명
+      , YT.TEAM_NAME 상대팀명
+      , HOME_SCORE 홈팀_SCORE
+      , AWAY_SCORE 상대팀_SCORE
+  FROM STADIUM ST INNER JOIN SCHEDULE SC
+  ON ST.STADIUM_ID = SC.STADIUM_ID
+  INNER JOIN TEAM MT
+  ON SC.HOMETEAM_ID = MT.TEAM_ID
+  INNER JOIN TEAM YT
+  ON SC.AWAYTEAM_ID = YT.TEAM_ID
+  WHERE AWAY_SCORE > HOME_SCORE
+  AND (AWAY_SCORE - HOME_SCORE) <= 3;
+  ```
