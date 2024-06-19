@@ -234,137 +234,185 @@
 
 <br />
 
-- CROUD
+- DML
 
-  ```
-  - SELECT
+  - CROUD
 
-  - INSERT
+    ```
+    - SELECT
 
-  - UPDATE
+    - INSERT
 
-  - DELETE
-  ```
+    - UPDATE
+
+    - DELETE
+    ```
+
+  <br />
+
+  - WHERE 절(조건절)
+
+  <br />
+
+  - 표준 연산자 && 오라클 전용 SQL 연산자
+
+    ```
+    - ANSI/ISO 표준 : 모든 운영 체제에서 사용 가능
+
+    - 부정 SQL 연산자: 오라클에서만 사용 가능
+    ```
+
+  <br />
+
+  - ORDER BY 절(정렬)
+
+  <br />
+
+  - DUAL TABLE(듀얼 테이블)
+
+  <br />
+
+  - 단일행 함수(function)
+
+    ```
+    - 단일행 함수 특징
+
+    - 문자 함수
+
+    - 날짜형 함수
+
+    - 변환형(형 변환) 함수
+
+    - 숫자 함수
+
+    - NULL 함수
+
+    - 조건문 관련 함수: DECODE 함수, CASE 함수
+    ```
+
+  <br />
+
+  - 그룹 함수(function)
+
+    ```
+    - COUNT()
+
+    - SUM()
+
+    - AVG()
+
+    - MAX()
+
+    - MIN()
+    ```
+
+  <br />
+
+  - GROUP BY절
+
+  - HAVING절
+
+  <br />
+
+  - JOIN
+
+    ```
+    - Oracle JOIN
+
+      - EQUI JOIN(동등 조인)
+
+      - NON-EQUI JOIN(비동등 조인)
+
+      - OUTER JOIN(외부 조인): (+)
+
+      - SELF JOIN(자체 조인)
+
+      - CROSS JOIN(상호 조인)
+
+
+    - ANSI JOIN(표준 조인 기법)
+
+      - CROSS JOIN + ON
+
+      - INNER JOIN(내부 조인) + ON
+
+      - OUTER JOIN(외부 조인) + ON : LEFT, RIGHT, FULL
+    ```
+
+  <br />
+
+  - 계층형(맛보기)
+
+    ```
+    - Oracle의 계층형 질의 구문
+
+    - Oracle의 계층 구조 사용법
+    ```
+
+  <br />
+
+  - 서브 쿼리(Sub Query)
+
+    ```
+    - 서브쿼리 사용 시 주의 사항
+
+    - 서브쿼리 사용 가능 위치
+
+    - 서브 쿼리 종류: 비연관 서브쿼리, 연관 서브쿼리
+
+    - 단일 행 서브쿼리 표현식, 사용 연산자(비교 연산자)
+
+    - 다중 행 서브쿼리, 사용 연산자(IN, ALL, ANY)
+
+    - 스칼라 서브쿼리
+    ```
+
+  <br />
+
+  - Inline View && ROWNUM
 
 <br />
 
-- WHERE 절(조건절)
+- DDL
 
-<br />
+  - 데이터 모델의 이해
 
-- 표준 연산자 && 오라클 전용 SQL 연산자
+    ```
+    - 모델링: 정의, 특징, 세 가지 관점
 
-  ```
-  - ANSI/ISO 표준 : 모든 운영 체제에서 사용 가능
+    - 데이터 모델링: 장점, 유의점, 주요 세 가지 개념
 
-  - 부정 SQL 연산자: 오라클에서만 사용 가능
-  ```
+    - 용어 구분 정의: Entity(=Table), Attribute(=Column), Relationship
 
-<br />
+    - 데이터 모델 표기법
+    ```
 
-- ORDER BY 절(정렬)
+  <br />
 
-<br />
+  - 프로젝트 생명주기(Life Cycle)
 
-- DUAL TABLE(듀얼 테이블)
+  <br />
 
-<br />
+  - 데이터 독립성 요소 및 사상(Mapping)
 
-- 단일행 함수(function)
+    ```
+    - 스키마 종류
 
-  ```
-  - 단일행 함수 특징
+    - DB에서의 외/내부
 
-  - 문자 함수
+    - 사상(Mapping)
+    ```
 
-  - 날짜형 함수
+  <br />
 
-  - 변환형(형 변환) 함수
+  - Entity, Attribute(+ Domain), Relationship 이론
 
-  - 숫자 함수
+    ```
+    - 개념, 정의
 
-  - NULL 함수
+    - 표기법
 
-  - 조건문 관련 함수: DECODE 함수, CASE 함수
-  ```
+    - 특징
 
-<br />
-
-- 그룹 함수(function)
-
-  ```
-  - COUNT()
-
-  - SUM()
-
-  - AVG()
-
-  - MAX()
-
-  - MIN()
-  ```
-
-<br />
-
-- GROUP BY절
-
-- HAVING절
-
-<br />
-
-- JOIN
-
-  ```
-  - Oracle JOIN
-
-    - EQUI JOIN(동등 조인)
-
-    - NON-EQUI JOIN(비동등 조인)
-
-    - OUTER JOIN(외부 조인): (+)
-
-    - SELF JOIN(자체 조인)
-
-    - CROSS JOIN(상호 조인)
-
-
-  - ANSI JOIN(표준 조인 기법)
-
-    - CROSS JOIN + ON
-
-    - INNER JOIN(내부 조인) + ON
-
-    - OUTER JOIN(외부 조인) + ON : LEFT, RIGHT, FULL
-  ```
-
-<br />
-
-- 계층형(맛보기)
-
-  ```
-  - Oracle의 계층형 질의 구문
-
-  - Oracle의 계층 구조 사용법
-  ```
-
-<br />
-
-- 서브 쿼리(Sub Query)
-
-  ```
-  - 서브쿼리 사용 시 주의 사항
-
-  - 서브쿼리 사용 가능 위치
-
-  - 서브 쿼리 종류: 비연관 서브쿼리, 연관 서브쿼리
-
-  - 단일 행 서브쿼리 표현식, 사용 연산자(비교 연산자)
-
-  - 다중 행 서브쿼리, 사용 연산자(IN, ALL, ANY)
-
-  - 스칼라 서브쿼리
-  ```
-
-<br />
-
-- Inline View && ROWNUM
+    - 명명(명명 규칙)
+    ```
