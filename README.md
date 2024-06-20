@@ -416,3 +416,37 @@
 
     - 명명(명명 규칙)
     ```
+
+  <br />
+
+  - 식별자(Identifiers)
+
+    ```
+    - 특징
+
+    - 주 식별자, 비 식별자
+    ```
+
+  <br />
+
+  - DDL의 CRUD
+
+    ```
+    CREATE TABLE: 기본 생성, 서브쿼리를 이용한 생성
+
+    ALTER TABLE: ADD COLUMN, DROP COLUMN, MODIFY
+
+    DROP TABLE
+    ```
+
+  <br />
+
+  - 데이터 딕셔너리
+
+    ```
+    - 개념
+
+    - 데이터 딕셔너리 뷰
+
+    - USER_데이터 딕셔너리
+    ```
