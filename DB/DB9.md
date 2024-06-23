@@ -509,6 +509,32 @@
   SELECT *
   FROM DUAL;
 
+  -- 권장
+  -- INSERT INTO SAM01_TEST
+  -- VALUES (1000, 'APPLE', 'police', 10000);
+
+  -- INSERT INTO SAM01_TEST
+  -- VALUES (1010, 'BANANA', 'nurse', 15000);
+
+  -- INSERT NTO SAM01_TEST
+  -- VALUES (1020, 'orange', 'DOCTOR', 25000);
+
   SELECT *
   FROM SAM01_TEST;
+  ```
+
+  <br />
+
+  - sam01 테이블에 행 추가
+
+  - 1030, VERY, 25000
+
+  - 1040, CAT, 2000
+
+  ```sql
+  INSERT INTO SAM01_TEST
+  VALUES (1030, 'VERY', NULL, 25000);
+
+  INSERT INTO SAM01_TEST
+  VALUES (1040, 'CAT', NULL, 2000);
   ```

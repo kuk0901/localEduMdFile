@@ -239,13 +239,13 @@
   - CROUD
 
     ```
-    - SELECT
+    - SELECT: SELECT FROM
 
-    - INSERT
+    - INSERT: 기본 생성(INSERT INTO VALUES), 다중 테이블에 다중 행 생성(INSET ALL INTO VALUES)
 
-    - UPDATE
+    - UPDATE: UPDATE SET WHERE
 
-    - DELETE
+    - DELETE: DELETE FROM WHERE
     ```
 
   <br />
@@ -450,3 +450,19 @@
 
     - USER_데이터 딕셔너리
     ```
+
+<br />
+
+- 무결성 제약 조건
+
+  ```
+  - PRIMARY KEY(기본 키)
+
+  - UNIQUE KEY(고유키)
+
+  - NOT NULL
+
+  - CHECK
+
+  - FOREIGN KEY(외래키)
+  ```
