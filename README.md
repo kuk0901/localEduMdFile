@@ -490,3 +490,31 @@
 <br />
 
 - 시퀀스(SEQUENCE)
+
+<br />
+
+- 트랜잭션(TCL, Transaction Control Language)
+
+  ```
+  - 개념
+
+  - 특징
+
+  - COMMIT, ROLLBACK
+  ```
+
+<br />
+
+- 계정 관리
+
+  ```
+  - 생성
+
+  - 권한 부여
+
+  - 권한 회수
+  ```
+
+<br />
+
+- 뷰(VIEW)
