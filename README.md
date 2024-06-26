@@ -518,3 +518,35 @@
 <br />
 
 - 뷰(VIEW)
+
+<br />
+
+## GitHub
+
+- 소스코드 관리 시스템
+
+```
+- server
+
+- client
+
+- 소스코드 버전 관리 시스템
+
+  - 로컬 버전 관리
+
+  - 중앙 집중식 버전 관리
+
+  - 분산 버전 관리
+
+- Git
+
+  - Git life cycle
+```
+
+<br />
+
+- GitHub
+
+  ```
+  - Repository
+  ```
