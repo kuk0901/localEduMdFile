@@ -587,6 +587,10 @@
   - ol, ul, li
 
   - table
+
+  - div
+
+  - span
   ```
 
 <br />
@@ -600,4 +604,6 @@
     , 속성 선택자, 가상 클래스 선택자, 종속 선택자
 
   - CSS 우선순위: 규칙, 결정 요소, 명시도
+
+  - 속성: display, padding, margin, float
   ```
