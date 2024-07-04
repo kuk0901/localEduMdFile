@@ -605,5 +605,21 @@
 
   - CSS 우선순위: 규칙, 결정 요소, 명시도
 
-  - 속성: display, padding, margin, float
+  - 속성: display, padding, margin, float, clear
+  ```
+
+<br />
+
+- JavaScript
+
+  ```
+  - script 태그 선언 위치
+
+  - 주석 종류
+
+  - 기본 명령어
+
+  - 특징
+
+  - 명명 규칙
   ```

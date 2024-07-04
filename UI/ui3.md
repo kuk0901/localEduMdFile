@@ -8,48 +8,56 @@
 
     - 내부 스타일 시트: HTML 문서의 head 태그에 style 태그를 사용하여, HTML 문서에 사용할 스타일을 지정하는 방식
 
-      ```html
-      <head>
-        <style>
-          p {
-            color: red;
-          }
-        </style>
-      </head>
-      <body>
-        <p>Hello CSS</p>
-      </body>
-      ```
+      - 특정 HTML 문서에만 스타일을 적용하고자 할 때 유용
+
+    ```html
+    <head>
+      <style>
+        p {
+          color: red;
+        }
+      </style>
+    </head>
+    <body>
+      <p>Hello CSS</p>
+    </body>
+    ```
 
     <br />
 
     - 외부 스타일 시트: 하나의 별도의 스타일시트 파일을 통해서 HTML 스타일을 적용하는 방식
 
-      ```html
-      <head>
-        <link rel="stylesheet" href="css/style.css" />
-      </head>
-      <body>
-        <p>Hello CSS</p>
-      </body>
-      ```
+      - 여러 HTML 문서에서 동일한 스타일을 적용할 때 유용하며, 코드의 재사용성과 유지보수성을 높이는 데 도움
 
-      ```css
-      /* css/style.css */
-      p {
-        color: red;
-      }
-      ```
+      - 웹 페이지의 내용(content)과 디자인(design)을 분리하므로, 웹 페이지의 구조를 더욱 명확하게 만들고 웹 표준 준수를 돕기 때문에 권장되는 방식
+
+    ```html
+    <head>
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+      <p>Hello CSS</p>
+    </body>
+    ```
+
+    ```css
+    /* css/style.css */
+    p {
+      color: red;
+    }
+    ```
 
     <br />
 
     - 인라인 스타일 시트: 인라인 HTML 요소의 style 속성을 사용해 스타일 적용법
 
-      ```html
-      <body>
-        <p style="color: red;">Hello CSS</p>
-      </body>
-      ```
+      - 특정 요소에만 스타일을 적용하고자 할 때 유용하지만, 코드의 재사용성과 유지보수성이 떨어짐
+
+    ```html
+    <body>
+      <p style="color: red;">Hello CSS</p>
+    </body>
+    ```
 
     <br />
 
