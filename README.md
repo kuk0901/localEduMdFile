@@ -627,5 +627,7 @@
 
   - 변수 키워드 종류
 
-  - DOM(Document Object Model): 요소 선택 방법
+  - DOM(Document Object Model) 요소 선택 방법
+
+  - DOM(Document Object Model) CRUD
   ```
