@@ -636,4 +636,10 @@
   - 내장 객체: Date, Math, String
 
   - Array와 반복문 종류(for in, for of, forEach)
+
+  - 함수(function): 기명 함수(일반 함수), 익명 함수
+
+  - Events: onmouseover, onmouseout, toggle(not ontoggle), 표준 이벤트 모델(addEventListener)
+
+  - DOM Level
   ```
