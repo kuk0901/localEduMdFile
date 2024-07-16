@@ -650,4 +650,8 @@
   - window.onload()
 
   - 이벤트, window, location 객체: 이벤트, location 객체의 주요 property
+
+  - navigator: property
+
+  - CDATA(Unparsed Character Data)
   ```
