@@ -654,4 +654,6 @@
   - navigator: property
 
   - CDATA(Unparsed Character Data)
+
+  - window: open(), opener, close()
   ```
