@@ -657,3 +657,17 @@
 
   - window: open(), opener, close()
   ```
+
+<br />
+
+## JSP & Servlet
+
+- Servlet
+
+  ```
+  - 서블릿 생성 및 실행
+
+  - 서블릿의 생명주기와 관련된 메서드
+
+  - web.xml
+  ```
