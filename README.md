@@ -671,3 +671,61 @@
 
   - web.xml
   ```
+
+<br />
+
+- JSP
+
+  ```
+  - JSP 기본 구성요소
+  ```
+
+<br />
+
+- 웹 용어
+
+  ```
+  - 서버와 클라이언트
+
+  - 요청(Request) / 응답(Response)
+
+  - 웹 서버(Web Server)
+
+  - HTTP(HyperText Transfer Protocol)
+
+  - 상태코드(Status code)
+
+  - 상태(State) - 무상태(StateLess) / 유상태(StateFull)
+
+  - HTTP 요청 메서드: get, post, head
+
+  - 동기(Synchronous) / 비동기(Asynchronous) 전송
+
+  - 정적문서 / 동적문서
+
+  - HTTP Server
+
+  - 웹 컨테이너(Web Container)
+
+  - 서블릿(Servlet)
+
+  - 라이프사이클
+
+  - JSP(Java Server Page)
+
+  - 웹 컴포넌트(Web Component)
+
+  - 컨텍스트(Context)
+
+  - WAS(Web Application Server - Java Enterprise Edition Server)
+
+  - 레이어(Layer) / 티어(Tier)
+
+  - DAO(Data Access Object - 데이터 접근 객체)
+
+  - DTO(Data Transfer Object - 데이터 전송 객체)
+
+  - VO(Value Object - 데이터 객체)
+
+  - MVC 패턴(Model - View - Controller)
+  ```
