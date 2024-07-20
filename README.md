@@ -670,6 +670,22 @@
   - 서블릿의 생명주기와 관련된 메서드
 
   - web.xml
+
+  - GenericServlet
+
+  - HttpServlet
+
+  - JDBC 실행 순서
+
+    1. DB 객체 준비
+
+    2. 오라클 객체 불러오기
+
+    3. DB에 sql문 전달, 실행
+
+    4. SELECT 결과 활용
+
+    5. DB 객체 메모리 해제
   ```
 
 <br />
@@ -728,4 +744,20 @@
   - VO(Value Object - 데이터 객체)
 
   - MVC 패턴(Model - View - Controller)
+  ```
+
+<br />
+
+- 웬 프로젝트 폴더 구조
+
+  ```
+  - src
+
+  - build/classes
+
+  - WebContent(webapp)
+
+  - WebContent/WEB-INF
+
+  - WebContent/WEB-INF/lib
   ```
