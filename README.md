@@ -686,6 +686,14 @@
     4. SELECT 결과 활용
 
     5. DB 객체 메모리 해제
+
+  - Statement VS PreparedStatement
+
+  - WebServlet annotation
+
+  - ServletContext
+
+  - sendRedirect()
   ```
 
 <br />
