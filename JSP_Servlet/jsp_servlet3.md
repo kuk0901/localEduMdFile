@@ -498,6 +498,10 @@
 
     - extends HttpServlet
 
+    - doGet(): 속도가 빠름, 조회용, 보안성 낮음 => 화면(Front)
+
+    - doPost(): 속도가 느림, 생성이나 수정용, 보안성 높음 => 기능(Back)
+
   ```java
   package spms.servlets;
 
