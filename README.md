@@ -694,6 +694,8 @@
   - ServletContext
 
   - sendRedirect()
+
+  - Filter: doFilter()
   ```
 
 <br />
