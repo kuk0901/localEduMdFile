@@ -704,6 +704,20 @@
 
   ```
   - JSP 기본 구성요소
+
+  - 전용 태그
+
+    1. 지시자(Directive)
+
+    2. 스크립트릿(Scriptlet Element)
+
+    3. JSP 기본 객체(Implicit Object)
+
+    4. 선언문(Declaration)
+
+    5. 표현식(Expression)
+
+  - 외부 JSP include
   ```
 
 <br />
@@ -770,4 +784,12 @@
   - WebContent/WEB-INF
 
   - WebContent/WEB-INF/lib
+  ```
+
+<br />
+
+- JSP & Servlet
+
+  ```
+  - MVC 패턴으로 기능 분리와 여러 JSP로 컴포넌트화
   ```
