@@ -718,6 +718,20 @@
     5. 표현식(Expression)
 
   - 외부 JSP include
+
+  - redirect와 forward, include 차이
+
+  - web.xml의 load-on-startup
+
+  - 데이터 보관소(4가지 종류)
+
+    - ServletContext
+
+    - HttpSession(session)
+
+    - ServletRequest
+
+    - JspContext
   ```
 
 <br />
@@ -772,7 +786,7 @@
 
 <br />
 
-- 웬 프로젝트 폴더 구조
+- 웹 프로젝트 폴더 구조
 
   ```
   - src
