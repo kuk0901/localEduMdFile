@@ -127,7 +127,7 @@
   - MemberListView.jsp
 
   ```html
-  <!-- jsp -->
+  <!-- MemberListView.jsp -->
   <%@ page import="spms.dto.MemberDto"%>
   <%@ page import="java.util.ArrayList"%>
   <%@ page language="java" contentType="text/html; charset=UTF-8"

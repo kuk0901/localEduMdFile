@@ -732,6 +732,12 @@
     - ServletRequest
 
     - JspContext
+
+  - 액션(Action) 태그
+
+    1. useBean
+
+  - 자바 빈(Bean): 개념, 구조, useBean
   ```
 
 <br />
