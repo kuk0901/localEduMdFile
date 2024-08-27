@@ -24,7 +24,7 @@
 - JVM 메모리 구조
 ```
 
-  <br />
+<br />
 
 - Java 기초 문법
 
@@ -36,7 +36,7 @@
 - 배열(Array), 2차원 배열
 ```
 
-  <br />
+<br />
 
 - 객체 지향 이론
 
@@ -46,7 +46,7 @@
 - 다형성(Polymorphism), 다형성(Polymorphism)과 casting
 ```
 
-  <br />
+<br />
 
 - class 기초
 
@@ -60,7 +60,7 @@
 - 매개변수(parameter)
 ```
 
-  <br />
+<br />
 
 - 변수
 
@@ -72,7 +72,7 @@
 - 매개변수(parameter)
 ```
 
-  <br />
+<br />
 
 - class 세부
 
@@ -166,13 +166,13 @@
 
 - Collection Framework
 
-  ```
-  - List: ArrayList
+```
+- List: ArrayList
 
-  - Map: HashMap
+- Map: HashMap
 
-  - Iterator
-  ```
+- Iterator
+```
 
 <br />
 
@@ -196,282 +196,282 @@
 
 - 데이터베이스(Database) 개념
 
-  ```
-  - DBMS(Database Management System)
+```
+- DBMS(Database Management System)
 
-  - RDBMS(Relational DBMS)
+- RDBMS(Relational DBMS)
 
-  - 데이터 유형
+- 데이터 유형
 
-  - 계정 이슈
+- 계정 이슈
 
-  - 코드 구조 파악
+- 코드 구조 파악
 
-  - Alias(별칭): SELECT 절에서 칼럼, FROM 절에서 테이블
+- Alias(별칭): SELECT 절에서 칼럼, FROM 절에서 테이블
 
-  - TABLE(테이블) 용어
+- TABLE(테이블) 용어
 
-  - 쿼리 실행 순서
-  ```
+- 쿼리 실행 순서
+```
 
 <br />
 
 - SQL(Structured Query Language)
 
-  ```
-  - SQL 언어 개념
+```
+- SQL 언어 개념
 
-  - SQL 문장 종류
+- SQL 문장 종류
 
-    - 데이터 조작어(DML)
+  - 데이터 조작어(DML)
 
-    - 데이터 정의어(DDL)
+  - 데이터 정의어(DDL)
 
-    - 데이터 제어어(DCL)
+  - 데이터 제어어(DCL)
 
-    - 트랜잭션 제어어(TCL)
-  ```
+  - 트랜잭션 제어어(TCL)
+```
 
 <br />
 
 - DML
 
-  - CROUD
+- CROUD
 
-    ```
-    - SELECT: SELECT FROM
+  ```
+  - SELECT: SELECT FROM
 
-    - INSERT: 기본 생성(INSERT INTO VALUES), 다중 테이블에 다중 행 생성(INSET ALL INTO VALUES)
+  - INSERT: 기본 생성(INSERT INTO VALUES), 다중 테이블에 다중 행 생성(INSET ALL INTO VALUES)
 
-    - UPDATE: UPDATE SET WHERE
+  - UPDATE: UPDATE SET WHERE
 
-    - DELETE: DELETE FROM WHERE
-    ```
+  - DELETE: DELETE FROM WHERE
+  ```
 
-  <br />
+<br />
 
-  - WHERE 절(조건절)
+- WHERE 절(조건절)
 
-  <br />
+<br />
 
-  - 표준 연산자 && 오라클 전용 SQL 연산자
+- 표준 연산자 && 오라클 전용 SQL 연산자
 
-    ```
-    - ANSI/ISO 표준 : 모든 운영 체제에서 사용 가능
+  ```
+  - ANSI/ISO 표준 : 모든 운영 체제에서 사용 가능
 
-    - 부정 SQL 연산자: 오라클에서만 사용 가능
-    ```
+  - 부정 SQL 연산자: 오라클에서만 사용 가능
+  ```
 
-  <br />
+<br />
 
-  - ORDER BY 절(정렬)
+- ORDER BY 절(정렬)
 
-  <br />
+<br />
 
-  - DUAL TABLE(듀얼 테이블)
+- DUAL TABLE(듀얼 테이블)
 
-  <br />
+<br />
 
-  - 단일행 함수(function)
+- 단일행 함수(function)
 
-    ```
-    - 단일행 함수 특징
+  ```
+  - 단일행 함수 특징
 
-    - 문자 함수
+  - 문자 함수
 
-    - 날짜형 함수
+  - 날짜형 함수
 
-    - 변환형(형 변환) 함수
+  - 변환형(형 변환) 함수
 
-    - 숫자 함수
+  - 숫자 함수
 
-    - NULL 함수
+  - NULL 함수
 
-    - 조건문 관련 함수: DECODE 함수, CASE 함수
-    ```
+  - 조건문 관련 함수: DECODE 함수, CASE 함수
+  ```
 
-  <br />
+<br />
 
-  - 그룹 함수(function)
+- 그룹 함수(function)
 
-    ```
-    - COUNT()
+  ```
+  - COUNT()
 
-    - SUM()
+  - SUM()
 
-    - AVG()
+  - AVG()
 
-    - MAX()
+  - MAX()
 
-    - MIN()
-    ```
+  - MIN()
+  ```
 
-  <br />
+<br />
 
-  - GROUP BY절
+- GROUP BY절
 
-  - HAVING절
+- HAVING절
 
-  <br />
+<br />
 
-  - JOIN
+- JOIN
 
-    ```
-    - Oracle JOIN
+  ```
+  - Oracle JOIN
 
-      - EQUI JOIN(동등 조인)
+    - EQUI JOIN(동등 조인)
 
-      - NON-EQUI JOIN(비동등 조인)
+    - NON-EQUI JOIN(비동등 조인)
 
-      - OUTER JOIN(외부 조인): (+)
+    - OUTER JOIN(외부 조인): (+)
 
-      - SELF JOIN(자체 조인)
+    - SELF JOIN(자체 조인)
 
-      - CROSS JOIN(상호 조인)
+    - CROSS JOIN(상호 조인)
 
 
-    - ANSI JOIN(표준 조인 기법)
+  - ANSI JOIN(표준 조인 기법)
 
-      - CROSS JOIN + ON
+    - CROSS JOIN + ON
 
-      - INNER JOIN(내부 조인) + ON
+    - INNER JOIN(내부 조인) + ON
 
-      - OUTER JOIN(외부 조인) + ON : LEFT, RIGHT, FULL
-    ```
+    - OUTER JOIN(외부 조인) + ON : LEFT, RIGHT, FULL
+  ```
 
-  <br />
+<br />
 
-  - 계층형(맛보기)
+- 계층형(맛보기)
 
-    ```
-    - Oracle의 계층형 질의 구문
+  ```
+  - Oracle의 계층형 질의 구문
 
-    - Oracle의 계층 구조 사용법
-    ```
+  - Oracle의 계층 구조 사용법
+  ```
 
-  <br />
+<br />
 
-  - 서브 쿼리(Sub Query)
+- 서브 쿼리(Sub Query)
 
-    ```
-    - 서브쿼리 사용 시 주의 사항
+  ```
+  - 서브쿼리 사용 시 주의 사항
 
-    - 서브쿼리 사용 가능 위치
+  - 서브쿼리 사용 가능 위치
 
-    - 서브 쿼리 종류: 비연관 서브쿼리, 연관 서브쿼리
+  - 서브 쿼리 종류: 비연관 서브쿼리, 연관 서브쿼리
 
-    - 단일 행 서브쿼리 표현식, 사용 연산자(비교 연산자)
+  - 단일 행 서브쿼리 표현식, 사용 연산자(비교 연산자)
 
-    - 다중 행 서브쿼리, 사용 연산자(IN, ALL, ANY)
+  - 다중 행 서브쿼리, 사용 연산자(IN, ALL, ANY)
 
-    - 스칼라 서브쿼리
-    ```
+  - 스칼라 서브쿼리
+  ```
 
-  <br />
+<br />
 
-  - Inline View && ROWNUM
+- Inline View && ROWNUM
 
 <br />
 
 - DDL
 
-  - 데이터 모델의 이해
+- 데이터 모델의 이해
 
-    ```
-    - 모델링: 정의, 특징, 세 가지 관점
+  ```
+  - 모델링: 정의, 특징, 세 가지 관점
 
-    - 데이터 모델링: 장점, 유의점, 주요 세 가지 개념
+  - 데이터 모델링: 장점, 유의점, 주요 세 가지 개념
 
-    - 용어 구분 정의: Entity(=Table), Attribute(=Column), Relationship
+  - 용어 구분 정의: Entity(=Table), Attribute(=Column), Relationship
 
-    - 데이터 모델 표기법
-    ```
+  - 데이터 모델 표기법
+  ```
 
-  <br />
+<br />
 
-  - 프로젝트 생명주기(Life Cycle)
+- 프로젝트 생명주기(Life Cycle)
 
-  <br />
+<br />
 
-  - 데이터 독립성 요소 및 사상(Mapping)
+- 데이터 독립성 요소 및 사상(Mapping)
 
-    ```
-    - 스키마 종류
+  ```
+  - 스키마 종류
 
-    - DB에서의 외/내부
+  - DB에서의 외/내부
 
-    - 사상(Mapping)
-    ```
+  - 사상(Mapping)
+  ```
 
-  <br />
+<br />
 
-  - Entity, Attribute(+ Domain), Relationship 이론
+- Entity, Attribute(+ Domain), Relationship 이론
 
-    ```
-    - 개념, 정의
+  ```
+  - 개념, 정의
 
-    - 표기법
+  - 표기법
 
-    - 특징
+  - 특징
 
-    - 명명(명명 규칙)
-    ```
+  - 명명(명명 규칙)
+  ```
 
-  <br />
+<br />
 
-  - 식별자(Identifiers)
+- 식별자(Identifiers)
 
-    ```
-    - 특징
+  ```
+  - 특징
 
-    - 주 식별자, 비 식별자
-    ```
+  - 주 식별자, 비 식별자
+  ```
 
-  <br />
+<br />
 
-  - DDL의 CRUD
+- DDL의 CRUD
 
-    ```
-    CREATE TABLE: 기본 생성, 서브쿼리를 이용한 생성
+  ```
+  CREATE TABLE: 기본 생성, 서브쿼리를 이용한 생성
 
-    ALTER TABLE: ADD COLUMN, DROP COLUMN, MODIFY
+  ALTER TABLE: ADD COLUMN, DROP COLUMN, MODIFY
 
-    DROP TABLE
-    ```
+  DROP TABLE
+  ```
 
-  <br />
+<br />
 
-  - 데이터 딕셔너리
+- 데이터 딕셔너리
 
-    ```
-    - 개념
+  ```
+  - 개념
 
-    - 데이터 딕셔너리 뷰
+  - 데이터 딕셔너리 뷰
 
-    - USER_데이터 딕셔너리
-    ```
+  - USER_데이터 딕셔너리
+  ```
 
 <br />
 
 - 무결성 제약 조건
 
-  ```
-  - PRIMARY KEY(기본 키)
+```
+- PRIMARY KEY(기본 키)
 
-  - UNIQUE KEY(고유키)
+- UNIQUE KEY(고유키)
 
-  - NOT NULL
+- NOT NULL
 
-  - CHECK
+- CHECK
 
-  - FOREIGN KEY(외래키)
+- FOREIGN KEY(외래키)
 
-  - COMPOSITE KEY(복합키)
+- COMPOSITE KEY(복합키)
 
-  > 제약조건 변경하기
+> 제약조건 변경하기
 
-  > 제약조건 비활성화: CASCADE
-  ```
+> 제약조건 비활성화: CASCADE
+```
 
 <br />
 
@@ -481,11 +481,11 @@
 
 - 정규화
 
-  ```
-  - 제1 정규화, 제1 정규형
+```
+- 제1 정규화, 제1 정규형
 
-  - 제2 정규화, 제2 정규형
-  ```
+- 제2 정규화, 제2 정규형
+```
 
 <br />
 
@@ -495,25 +495,25 @@
 
 - 트랜잭션(TCL, Transaction Control Language)
 
-  ```
-  - 개념
+```
+- 개념
 
-  - 특징
+- 특징
 
-  - COMMIT, ROLLBACK
-  ```
+- COMMIT, ROLLBACK
+```
 
 <br />
 
 - 계정 관리
 
-  ```
-  - 생성
+```
+- 생성
 
-  - 권한 부여
+- 권한 부여
 
-  - 권한 회수
-  ```
+- 권한 회수
+```
 
 <br />
 
@@ -525,31 +525,31 @@
 
 - 소스코드 관리 시스템
 
-  ```
-  - server
+```
+- server
 
-  - client
+- client
 
-  - 소스코드 버전 관리 시스템
+- 소스코드 버전 관리 시스템
 
-    - 로컬 버전 관리
+  - 로컬 버전 관리
 
-    - 중앙 집중식 버전 관리
+  - 중앙 집중식 버전 관리
 
-    - 분산 버전 관리
+  - 분산 버전 관리
 
-  - Git
+- Git
 
-    - Git life cycle
-  ```
+  - Git life cycle
+```
 
 <br />
 
 - GitHub
 
-  ```
-  - Repository
-  ```
+```
+- Repository
+```
 
 <br />
 
@@ -557,17 +557,17 @@
 
 - HTML
 
-  ```
-  - Tag(Element)
+```
+- Tag(Element)
 
-  - 속성(Attribute)
+- 속성(Attribute)
 
-  - 마크업 기본 규칙
+- 마크업 기본 규칙
 
-  - 크로스 브라우징
+- 크로스 브라우징
 
-  - 주소 체계 분석
-  ```
+- 주소 체계 분석
+```
 
 <br />
 
@@ -577,86 +577,86 @@
 
 - HTML 태그의 종류
 
-  ```
-  - p
+```
+- p
 
-  - a
+- a
 
-  - img + 상대 경로와 절대 경로
+- img + 상대 경로와 절대 경로
 
-  - ol, ul, li
+- ol, ul, li
 
-  - table
+- table
 
-  - div
+- div
 
-  - span
-  ```
+- span
+```
 
 <br />
 
 - CSS(Cascading Style Sheets)
 
-  ```
-  - style sheets 종류: 내부 스타일 시트, 외부 스타일 시트, 인라인 스타일 시트
+```
+- style sheets 종류: 내부 스타일 시트, 외부 스타일 시트, 인라인 스타일 시트
 
-  - 선택자: Tag 선택자, ID 선택자, class 선택자, 전체 선택자(*), 하위 선택자, 자식 선택자, 그룹 선택자
-    , 속성 선택자, 가상 클래스 선택자, 종속 선택자
+- 선택자: Tag 선택자, ID 선택자, class 선택자, 전체 선택자(*), 하위 선택자, 자식 선택자, 그룹 선택자
+  , 속성 선택자, 가상 클래스 선택자, 종속 선택자
 
-  - CSS 우선순위: 규칙, 결정 요소, 명시도
+- CSS 우선순위: 규칙, 결정 요소, 명시도
 
-  - 속성: display, padding, margin, float, clear
-  ```
+- 속성: display, padding, margin, float, clear
+```
 
 <br />
 
 - JavaScript
 
-  ```
-  - script 태그 선언 위치
+```
+- script 태그 선언 위치
 
-  - 주석 종류
+- 주석 종류
 
-  - 기본 명령어
+- 기본 명령어
 
-  - 특징
+- 특징
 
-  - 명명 규칙
+- 명명 규칙
 
-  - 변수의 라이프 사이클
+- 변수의 라이프 사이클
 
-  - 변수 키워드 종류
+- 변수 키워드 종류
 
-  - DOM(Document Object Model) 요소 선택 방법
+- DOM(Document Object Model) 요소 선택 방법
 
-  - DOM(Document Object Model) CRUD
+- DOM(Document Object Model) CRUD
 
-  - event, tag의 onclick Attribute
+- event, tag의 onclick Attribute
 
-  - 내장 객체: Date, Math, String
+- 내장 객체: Date, Math, String
 
-  - Array와 반복문 종류(for in, for of, forEach)
+- Array와 반복문 종류(for in, for of, forEach)
 
-  - 함수(function): 기명 함수(일반 함수), 익명 함수
+- 함수(function): 기명 함수(일반 함수), 익명 함수
 
-  - Events: onmouseover, onmouseout, toggle(not ontoggle), 표준 이벤트 모델(addEventListener)
+- Events: onmouseover, onmouseout, toggle(not ontoggle), 표준 이벤트 모델(addEventListener)
 
-  - DOM Level
+- DOM Level
 
-  - addEventListener 심화: 버블링, 캡쳐링, event.stopPropagation()
+- addEventListener 심화: 버블링, 캡쳐링, event.stopPropagation()
 
-  - setInterval(), setTimeout()
+- setInterval(), setTimeout()
 
-  - window.onload()
+- window.onload()
 
-  - 이벤트, window, location 객체: 이벤트, location 객체의 주요 property
+- 이벤트, window, location 객체: 이벤트, location 객체의 주요 property
 
-  - navigator: property
+- navigator: property
 
-  - CDATA(Unparsed Character Data)
+- CDATA(Unparsed Character Data)
 
-  - window: open(), opener, close()
-  ```
+- window: open(), opener, close()
+```
 
 <br />
 
@@ -664,210 +664,212 @@
 
 - Servlet
 
-  ```
-  - 서블릿 생성 및 실행
+```
+- 서블릿 생성 및 실행
 
-  - 서블릿의 생명주기와 관련된 메서드
+- 서블릿의 생명주기와 관련된 메서드
 
-  - web.xml
+- web.xml
 
-  - GenericServlet
+- GenericServlet
 
-  - HttpServlet
+- HttpServlet
 
-  - JDBC 실행 순서
+- JDBC 실행 순서
 
-    1. DB 객체 준비
+  1. DB 객체 준비
 
-    2. 오라클 객체 불러오기
+  2. 오라클 객체 불러오기
 
-    3. DB에 sql문 전달, 실행
+  3. DB에 sql문 전달, 실행
 
-    4. SELECT 결과 활용
+  4. SELECT 결과 활용
 
-    5. DB 객체 메모리 해제
+  5. DB 객체 메모리 해제
 
-  - Statement VS PreparedStatement
+- Statement VS PreparedStatement
 
-  - WebServlet annotation
+- WebServlet annotation
 
-  - ServletContext
+- ServletContext
 
-  - sendRedirect()
+- sendRedirect()
 
-  - Filter: doFilter()
+- Filter: doFilter()
 
-  - DAO
+- DAO
 
-  - MVC 패턴 개발 순서
+- MVC 패턴 개발 순서
 
-  - CRUD 구현 순서
-  ```
+- CRUD 구현 순서
+```
 
 <br />
 
 - JSP
 
-  ```
-  - JSP 기본 구성요소
+```
+- JSP 기본 구성요소
 
-  - 전용 태그
+- 전용 태그
 
-    1. 지시자(Directive)
+  1. 지시자(Directive)
 
-    2. 스크립트릿(Scriptlet Element)
+  2. 스크립트릿(Scriptlet Element)
 
-    3. JSP 기본 객체(Implicit Object)
+  3. JSP 기본 객체(Implicit Object)
 
-    4. 선언문(Declaration)
+  4. 선언문(Declaration)
 
-    5. 표현식(Expression)
+  5. 표현식(Expression)
 
-  - 외부 JSP include
+- 외부 JSP include
 
-  - redirect와 forward, include 차이
+- redirect와 forward, include 차이
 
-  - web.xml의 load-on-startup
+- web.xml의 load-on-startup
 
-  - 데이터 보관소(4가지 종류)
+- 데이터 보관소(4가지 종류)
 
-    - ServletContext
+  - ServletContext
 
-    - HttpSession(session)
+  - HttpSession(session)
 
-    - ServletRequest
+  - ServletRequest
 
-    - JspContext
+  - JspContext
 
-  - 액션(Action) 태그
+- 액션(Action) 태그
 
-    1. useBean
+  1. useBean
 
-  - 자바 빈(Bean): 개념, 구조, useBean
+- 자바 빈(Bean): 개념, 구조, useBean
 
-  - taglib 지시어
+- taglib 지시어
 
-  - JSTL(JSP Standard Tag Library)
+- JSTL(JSP Standard Tag Library)
 
-  - EL(Expression Language) 표기법, 표현식
-  ```
+- EL(Expression Language) 표기법, 표현식
+```
 
 <br />
 
 - 웹 용어
 
-  ```
-  - 서버와 클라이언트
+```
+- 서버와 클라이언트
 
-  - 요청(Request) / 응답(Response)
+- 요청(Request) / 응답(Response)
 
-  - 웹 서버(Web Server)
+- 웹 서버(Web Server)
 
-  - HTTP(HyperText Transfer Protocol)
+- HTTP(HyperText Transfer Protocol)
 
-  - 상태코드(Status code)
+- 상태코드(Status code)
 
-  - 상태(State) - 무상태(StateLess) / 유상태(StateFull)
+- 상태(State) - 무상태(StateLess) / 유상태(StateFull)
 
-  - HTTP 요청 메서드: get, post, head
+- HTTP 요청 메서드: get, post, head
 
-  - 동기(Synchronous) / 비동기(Asynchronous) 전송
+- 동기(Synchronous) / 비동기(Asynchronous) 전송
 
-  - 정적문서 / 동적문서
+- 정적문서 / 동적문서
 
-  - HTTP Server
+- HTTP Server
 
-  - 웹 컨테이너(Web Container)
+- 웹 컨테이너(Web Container)
 
-  - 서블릿(Servlet)
+- 서블릿(Servlet)
 
-  - 라이프사이클
+- 라이프사이클
 
-  - JSP(Java Server Page)
+- JSP(Java Server Page)
 
-  - 웹 컴포넌트(Web Component)
+- 웹 컴포넌트(Web Component)
 
-  - 컨텍스트(Context)
+- 컨텍스트(Context)
 
-  - WAS(Web Application Server - Java Enterprise Edition Server)
+- WAS(Web Application Server - Java Enterprise Edition Server)
 
-  - 레이어(Layer) / 티어(Tier)
+- 레이어(Layer) / 티어(Tier)
 
-  - DAO(Data Access Object - 데이터 접근 객체)
+- DAO(Data Access Object - 데이터 접근 객체)
 
-  - DTO(Data Transfer Object - 데이터 전송 객체)
+- DTO(Data Transfer Object - 데이터 전송 객체)
 
-  - VO(Value Object - 데이터 객체)
+- VO(Value Object - 데이터 객체)
 
-  - MVC 패턴(Model - View - Controller)
-  ```
+- MVC 패턴(Model - View - Controller)
+```
 
 <br />
 
 - 웹 프로젝트 폴더 구조
 
-  ```
-  - src
+```
+- src
 
-  - build/classes
+- build/classes
 
-  - WebContent(webapp)
+- WebContent(webapp)
 
-  - WebContent/WEB-INF
+- WebContent/WEB-INF
 
-  - WebContent/WEB-INF/lib
-  ```
+- WebContent/WEB-INF/lib
+```
 
 <br />
 
 - JSP & Servlet
 
-  ```
-  - MVC 패턴으로 기능 분리와 여러 JSP로 컴포넌트화
-  ```
+```
+- MVC 패턴으로 기능 분리와 여러 JSP로 컴포넌트화
+```
 
 <br />
 
+## Spring
+
+- 개념
+
+```
+- 구축
+
+- spring에서의 객체 지향
+
+- dependency injection(의존성 주입)
+
+- Spring framework 이론
+
+- Maven
+
+- 어노테이션
+
+- application.properties
+
+- logback.xml
+
+- controller, service, dao, vo, mappers
+
+- IoC
+
+  - IoC 개념
+
+  - 컨테이너
+
+- DI
+
+  - 개념, 장점, 유형
+
 - Spring
 
-  ```
-  - 구축
+  - 컨테이너
 
-  - spring에서의 객체 지향
+- Application Context
 
-  - dependency injection(의존성 주입)
+- Layered Architecture
 
-  - Spring framework 이론
+- MVC 패턴
 
-  - Maven
-
-  - 어노테이션
-
-  - application.properties
-
-  - logback.xml
-
-  - controller, service, dao, vo, mappers
-
-  - IoC
-
-    - IoC 개념
-
-    - 컨테이너
-
-  - DI
-
-    - 개념, 장점, 유형
-
-  - Spring
-
-    - 컨테이너
-
-  - Application Context
-
-  - Layered Architecture
-
-  - MVC 패턴
-
-  - Spring Mvc 패턴
-  ```
+- Spring Mvc 패턴
+```
