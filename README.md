@@ -840,4 +840,34 @@
   - Spring framework 이론
 
   - Maven
+
+  - 어노테이션
+
+  - application.properties
+
+  - logback.xml
+
+  - controller, service, dao, vo, mappers
+
+  - IoC
+
+    - IoC 개념
+
+    - 컨테이너
+
+  - DI
+
+    - 개념, 장점, 유형
+
+  - Spring
+
+    - 컨테이너
+
+  - Application Context
+
+  - Layered Architecture
+
+  - MVC 패턴
+
+  - Spring Mvc 패턴
   ```
