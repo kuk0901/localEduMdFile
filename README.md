@@ -841,16 +841,6 @@
 
 - Spring framework 이론
 
-- Maven
-
-- 어노테이션
-
-- application.properties
-
-- logback.xml
-
-- controller, service, dao, vo, mappers
-
 - IoC
 
   - IoC 개념
@@ -865,11 +855,41 @@
 
   - 컨테이너
 
+- Maven
+
+- Open API(Application Programming Interface)
+
+- RESTful(Representational State Transfer)ful API
+
+- ORM(Object Relational Mapping)
+```
+
+<br />
+
+- MVC 패턴
+
+```
+- MVC 패턴
+
+- Spring Mvc 패턴
+```
+
+<br />
+
+- Spring
+
+```
+- 어노테이션
+
+- application.properties
+
+- logback.xml
+
+- controller, service, dao, vo, mappers
+
 - Application Context
 
 - Layered Architecture
 
-- MVC 패턴
-
-- Spring Mvc 패턴
+- Controller
 ```
