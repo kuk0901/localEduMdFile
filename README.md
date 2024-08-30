@@ -893,3 +893,23 @@
 
 - Controller
 ```
+
+<br />
+
+- Mybatis
+
+```
+- 장점
+
+- 특징
+
+- 주요 컴포넌트
+
+- 동적 SQL, 표현식
+
+- Mapper.xml trim
+```
+
+<br />
+
+- Fetch API
