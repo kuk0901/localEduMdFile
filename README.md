@@ -892,6 +892,10 @@
 - Layered Architecture
 
 - Controller
+
+- 페이지네이션
+
+  - 페이징 연습을 위한 더미 데이터 생성(PL/SQL 프로시저)
 ```
 
 <br />
@@ -913,3 +917,13 @@
 <br />
 
 - Fetch API
+
+<br />
+
+- jQuery
+
+```
+- CDN
+
+- 기본 형식
+```
