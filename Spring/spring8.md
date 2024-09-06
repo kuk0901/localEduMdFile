@@ -1,8 +1,8 @@
 # Spring 8일차
 
-## 이론
+## **이론**
 
-- jQuery
+- **`jQuery`**
 
   - jQuery가 과거에 인기 많았던 이유
 

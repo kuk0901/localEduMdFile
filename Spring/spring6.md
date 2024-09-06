@@ -1,8 +1,8 @@
 # Spring 6일차
 
-## 이론
+## **이론**
 
-- 페이지네이션
+- **`페이지네이션`**
 
 ```java
 package com.edu.util;

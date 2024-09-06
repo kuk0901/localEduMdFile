@@ -1,6 +1,6 @@
 # Spring 3일차
 
-## 이론
+## **`이론`**
 
 - Controller
 

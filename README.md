@@ -932,6 +932,16 @@
 - 기본 형식
 
 - jQuery + AJAX
+
+- 태그.each()
+
+- $.each(): 데이터 기반
+
+- filter()
+
+- 메서드체이닝
+
+- on()
 ```
 
 <br />
@@ -950,4 +960,14 @@
 - yaml 파일
 
 - REST 컨트롤러
+```
+
+<br />
+
+- JSON
+
+```
+- JSON.stringify()
+
+- JSON.parse()
 ```

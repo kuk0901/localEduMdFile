@@ -1,6 +1,6 @@
 # Spring 1일차
 
-## 구축
+## **구축**
 
 - Spring tool install
 
@@ -18,7 +18,7 @@
 
 <br />
 
-## spring에서의 객체 지향
+## **spring에서의 객체 지향**
 
 > 의존성 주입(dependency injection)
 
@@ -230,7 +230,7 @@
 
 <br />
 
-## Maven
+## **`Maven`**
 
 > 스프링을 사용하기 위해 Maven Build가 필요함
 
