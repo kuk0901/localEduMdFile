@@ -1,8 +1,8 @@
 # 국비 지원 프로그램
 
-## C 언어
+## **`C 언어`**
 
-- C언어 기본 개념
+- **_C언어 기본 개념_**
 
 ```
 - Data Type
@@ -14,9 +14,9 @@
 
 <br />
 
-## Java
+## **`Java`**
 
-- Java 언어에 대한 이해
+- **_Java 언어에 대한 이해_**
 
 ```
 - JDK, JRE, JAVA
@@ -26,7 +26,7 @@
 
 <br />
 
-- Java 기초 문법
+- **_Java 기초 문법_**
 
 ```
 - Data Type, Casting(형 변환)
@@ -38,7 +38,7 @@
 
 <br />
 
-- 객체 지향 이론
+- **_객체 지향 이론_**
 
 ```
 - 캡슐화(Encapsulation) 간단 개념
@@ -48,7 +48,7 @@
 
 <br />
 
-- class 기초
+- **_class 기초_**
 
 ```
 - class, instance, method, return
@@ -62,7 +62,7 @@
 
 <br />
 
-- 변수
+- **_변수_**
 
 ```
 - 변수의 종류(선언 위치)
@@ -74,7 +74,7 @@
 
 <br />
 
-- class 세부
+- **_class 세부_**
 
 ```
 - 메서드 오버로딩(Overloading)
@@ -94,7 +94,7 @@
 
 <br />
 
-- 패키지(package)
+- **_패키지(package)_**
 
 ```
 - 클래스 풀네임
@@ -106,7 +106,7 @@
 
 <br />
 
-- 객체 지향 프로그래밍
+- **_객체 지향 프로그래밍_**
 
 ```
 - 제어자(Modifier), 접근 제어자(Access Modifier)
@@ -124,7 +124,7 @@
 
 <br />
 
-- String class 이해
+- **_String class 이해_**
 
 ```
 - String class
@@ -134,7 +134,7 @@
 
 <br />
 
-- Wrapper class
+- **_Wrapper class_**
 
 ```
 - 기본형과 문자열 간의 변환 방법
@@ -146,7 +146,7 @@
 
 <br />
 
-- 예외 처리(Exception Handling)
+- **_예외 처리(Exception Handling)_**
 
 ```
 - 에러 종류
@@ -164,7 +164,7 @@
 
 <br />
 
-- Collection Framework
+- **_Collection Framework_**
 
 ```
 - List: ArrayList
@@ -176,25 +176,25 @@
 
 <br />
 
-- 제네릭(Generic)
+- **_제네릭(Generic)_**
 
 <br />
 
-- 확장된 for문(forEach문)
+- **_확장된 for문(forEach문)_**
 
 <br />
 
-- java에서 제공하는 Date, Calender class
+- **_java에서 제공하는 Date, Calender class_**
 
 <br />
 
-- 팀 프로젝트(간접 체험), **커피 매장** 프로젝트
+- **_팀 프로젝트(간접 체험): 커피 매장 프로젝트_**
 
 <br />
 
-## Database(oracle)
+## **`Database(oracle)`**
 
-- 데이터베이스(Database) 개념
+- **_데이터베이스(Database) 개념_**
 
 ```
 - DBMS(Database Management System)
@@ -216,7 +216,7 @@
 
 <br />
 
-- SQL(Structured Query Language)
+- **_SQL(Structured Query Language)_**
 
 ```
 - SQL 언어 개념
@@ -234,11 +234,11 @@
 
 <br />
 
-- DML
+- **_DML_**
 
 <br />
 
-- CROUD
+- **_CROUD_**
 
   ```
   - SELECT: SELECT FROM
@@ -252,11 +252,11 @@
 
 <br />
 
-- WHERE 절(조건절)
+- **_WHERE 절(조건절)_**
 
 <br />
 
-- 표준 연산자 && 오라클 전용 SQL 연산자
+- **_표준 연산자 && 오라클 전용 SQL 연산자_**
 
   ```
   - ANSI/ISO 표준 : 모든 운영 체제에서 사용 가능
@@ -266,15 +266,15 @@
 
 <br />
 
-- ORDER BY 절(정렬)
+- **_ORDER BY 절(정렬)_**
 
 <br />
 
-- DUAL TABLE(듀얼 테이블)
+- **_DUAL TABLE(듀얼 테이블)_**
 
 <br />
 
-- 단일행 함수(function)
+- **_단일행 함수(function)_**
 
   ```
   - 단일행 함수 특징
@@ -294,7 +294,7 @@
 
 <br />
 
-- 그룹 함수(function)
+- **_그룹 함수(function)_**
 
   ```
   - COUNT()
@@ -310,15 +310,15 @@
 
 <br />
 
-- GROUP BY절
+- **_GROUP BY절_**
 
 <br />
 
-- HAVING절
+- **_HAVING절_**
 
 <br />
 
-- JOIN
+- **_JOIN_**
 
   ```
   - Oracle JOIN
@@ -345,7 +345,7 @@
 
 <br />
 
-- 계층형(맛보기)
+- **_계층형(맛보기)_**
 
   ```
   - Oracle의 계층형 질의 구문
@@ -355,7 +355,7 @@
 
 <br />
 
-- 서브 쿼리(Sub Query)
+- **_서브 쿼리(Sub Query)_**
 
   ```
   - 서브쿼리 사용 시 주의 사항
@@ -373,15 +373,15 @@
 
 <br />
 
-- Inline View && ROWNUM
+- **_Inline View && ROWNUM_**
 
 <br />
 
-- DDL
+- **_DDL_**
 
 <br />
 
-- 데이터 모델의 이해
+- **_데이터 모델의 이해_**
 
   ```
   - 모델링: 정의, 특징, 세 가지 관점
@@ -395,11 +395,11 @@
 
 <br />
 
-- 프로젝트 생명주기(Life Cycle)
+- **_프로젝트 생명주기(Life Cycle)_**
 
 <br />
 
-- 데이터 독립성 요소 및 사상(Mapping)
+- **_데이터 독립성 요소 및 사상(Mapping)_**
 
   ```
   - 스키마 종류
@@ -411,7 +411,7 @@
 
 <br />
 
-- Entity, Attribute(+ Domain), Relationship 이론
+- **_Entity, Attribute(+ Domain), Relationship 이론_**
 
   ```
   - 개념, 정의
@@ -425,7 +425,7 @@
 
 <br />
 
-- 식별자(Identifiers)
+- **_식별자(Identifiers)_**
 
   ```
   - 특징
@@ -435,7 +435,7 @@
 
 <br />
 
-- DDL의 CRUD
+- **_DDL의 CRUD_**
 
   ```
   CREATE TABLE: 기본 생성, 서브쿼리를 이용한 생성
@@ -447,7 +447,7 @@
 
 <br />
 
-- 데이터 딕셔너리
+- **_데이터 딕셔너리_**
 
   ```
   - 개념
@@ -459,7 +459,7 @@
 
 <br />
 
-- 무결성 제약 조건
+- **_무결성 제약 조건_**
 
 ```
 - PRIMARY KEY(기본 키)
@@ -481,11 +481,11 @@
 
 <br />
 
-- DEFAULT 설정
+- **_DEFAULT 설정_**
 
 <br />
 
-- 정규화
+- **_정규화_**
 
 ```
 - 제1 정규화, 제1 정규형
@@ -495,11 +495,11 @@
 
 <br />
 
-- 시퀀스(SEQUENCE)
+- **_시퀀스(SEQUENCE)_**
 
 <br />
 
-- 트랜잭션(TCL, Transaction Control Language)
+- **_트랜잭션(TCL, Transaction Control Language)_**
 
 ```
 - 개념
@@ -511,7 +511,7 @@
 
 <br />
 
-- 계정 관리
+- **_계정 관리_**
 
 ```
 - 생성
@@ -523,13 +523,13 @@
 
 <br />
 
-- 뷰(VIEW)
+- **_뷰(VIEW)_**
 
 <br />
 
-## GitHub
+## **`GitHub`**
 
-- 소스코드 관리 시스템
+- **_소스코드 관리 시스템_**
 
 ```
 - server
@@ -551,7 +551,7 @@
 
 <br />
 
-- GitHub
+- **_GitHub_**
 
 ```
 - Repository
@@ -559,9 +559,9 @@
 
 <br />
 
-## UI(User Interface)
+## **`UI(User Interface)`**
 
-- HTML
+- **_HTML_**
 
 ```
 - Tag(Element)
@@ -577,11 +577,11 @@
 
 <br />
 
-- 컴파일러 vs 인터프리터 기초
+- **_컴파일러 vs 인터프리터 기초_**
 
 <br />
 
-- HTML 태그의 종류
+- **_HTML 태그의 종류_**
 
 ```
 - p
@@ -601,7 +601,7 @@
 
 <br />
 
-- CSS(Cascading Style Sheets)
+- **_CSS(Cascading Style Sheets)_**
 
 ```
 - style sheets 종류: 내부 스타일 시트, 외부 스타일 시트, 인라인 스타일 시트
@@ -616,7 +616,7 @@
 
 <br />
 
-- JavaScript
+- **_JavaScript_**
 
 ```
 - script 태그 선언 위치
@@ -666,9 +666,9 @@
 
 <br />
 
-## JSP & Servlet
+## **`JSP & Servlet`**
 
-- Servlet
+- **_Servlet_**
 
 ```
 - 서블릿 생성 및 실행
@@ -712,7 +712,7 @@
 
 <br />
 
-- JSP
+- **_JSP_**
 
 ```
 - JSP 기본 구성요소
@@ -760,7 +760,7 @@
 
 <br />
 
-- 웹 용어
+- **_웹 용어_**
 
 ```
 - 서버와 클라이언트
@@ -810,7 +810,7 @@
 
 <br />
 
-- 웹 프로젝트 폴더 구조
+- **_웹 프로젝트 폴더 구조_**
 
 ```
 - src
@@ -826,7 +826,7 @@
 
 <br />
 
-- JSP & Servlet
+- **_JSP & Servlet_**
 
 ```
 - MVC 패턴으로 기능 분리와 여러 JSP로 컴포넌트화
@@ -834,11 +834,11 @@
 
 <br />
 
-## Spring
+## **`Spring`**
 
 > 수업 코드: https://github.com/kuk0901/localEduSpringBasic
 
-- 개념
+- **_개념_**
 
 ```
 - 구축
@@ -867,14 +867,20 @@
 
 - Open API(Application Programming Interface)
 
-- RESTful(Representational State Transfer)ful API
+- REST(Representational State Transfer)ful API
+
+  - 개념
+
+  - 기존 웹 접근 방식과의 차이점
+
+  - 핵심 어노테이션
 
 - ORM(Object Relational Mapping)
 ```
 
 <br />
 
-- MVC 패턴
+- **_MVC 패턴_**
 
 ```
 - MVC 패턴
@@ -884,7 +890,7 @@
 
 <br />
 
-- Spring
+- **_Spring_**
 
 ```
 - 어노테이션
@@ -910,7 +916,7 @@
 
 <br />
 
-- Mybatis
+- **_Mybatis_**
 
 ```
 - 장점
@@ -926,11 +932,11 @@
 
 <br />
 
-- Fetch API
+- **_Fetch API_**
 
 <br />
 
-- jQuery
+- **_jQuery_**
 
 ```
 - CDN
@@ -952,7 +958,7 @@
 
 <br />
 
-- 스프링부트
+- **_스프링부트_**
 
 ```
 - 등장 이유
@@ -970,10 +976,26 @@
 
 <br />
 
-- JSON
+- **_JSON_**
 
 ```
 - JSON.stringify()
 
 - JSON.parse()
+
+- 개념
+```
+
+<br />
+
+- **_Lombok_**
+
+```
+- 개념
+
+- 기능
+
+- 장단점
+
+- 자주 사용되는 어노테이션
 ```
