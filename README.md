@@ -972,6 +972,8 @@
 - yaml 파일
 
 - REST 컨트롤러
+
+- RESTful API를 이용한 파일 업로드
 ```
 
 <br />
