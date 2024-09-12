@@ -976,6 +976,8 @@
 - RESTful API를 이용한 파일 업로드
 
 - RESTful API를 이용한 업로드된 게시글(파일) 수정
+
+- RESTful API를 이용한 업로드된 게시글(파일) 삭제
 ```
 
 <br />
