@@ -148,6 +148,9 @@
 
   import com.edu.member.domain.MemberVo;
 
+  // 해당 클래스가 데이터 접근 계층(Data Access Layer)의 컴포넌트임을 나타냄
+  // 주로 데이터베이스 작업을 처리하는 DAO(Data Access Object) 클래스에 사용
+  // 스프링의 컴포넌트 스캔 메커니즘에 의해 자동으로 빈으로 등록 => 이를 통해 의존성 주입(Dependency Injection)이 가능해짐
   @Repository
   public class MemberDaoImpl implements MemberDao {
 

@@ -1,6 +1,6 @@
 # Spring 7일차
 
-## **`이론`**
+## **이론**
 
 - 페이징 연습을 위한 더미 데이터 생성(PL/SQL 프로시저)
 
@@ -33,7 +33,7 @@
 
 <br />
 
-- CDN(Content Delivery Network)
+- **`CDN(Content Delivery Network)`**
 
   - 콘텐츠를 효율적으로 전달하기 위해 여러 노드를 가진 네트워키에 데이터를 저장하여 제공하는 시스템
 

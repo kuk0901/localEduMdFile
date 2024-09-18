@@ -1,8 +1,8 @@
 # Spring 5일차
 
-## **`이론`**
+## **이론**
 
-- Mapper.xml
+- **`Mapper.xml`**
 
   - trim을 사용하는 경우
 
@@ -24,7 +24,7 @@
 
 <br />
 
-- Fetch API
+- **`Fetch API`**
 
   - fetch()
 
@@ -60,7 +60,7 @@
 
 <br />
 
-- ERD(Entity Relationship Diagram)
+- **`ERD(Entity Relationship Diagram)`**
 
   - 개체들의 관계를 다이어그램 형식으로 표현한 것
 

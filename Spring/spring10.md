@@ -711,7 +711,7 @@
 
 <br />
 
-- json
+- **`json`**
 
   - JSON.stringify(): object -> json
 

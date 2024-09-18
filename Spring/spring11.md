@@ -2,7 +2,7 @@
 
 ## **코드**
 
-- Lombok
+- **`Lombok`**
 
   - 여러 가지 @어노테이션을 제공하고 컴파일 과정에서 자동으로 개발자가 원하는 메서드를 생성/주입 방식으로 동작하는 라이브러리
 
@@ -70,7 +70,7 @@
 
 <br />
 
-- JSON(Javascript Object Notation)
+- **`JSON(Javascript Object Notation)`**
 
   - WEB에서 Data 교환 방식(사실상 표준)
 
@@ -82,7 +82,7 @@
 
 <br />
 
-- 핵심 REST 어노테이션
+- **`핵심 REST 어노테이션`**
 
   - @RequestBody: HTTP request body를 java 객체로 전달받을 수 있음
 

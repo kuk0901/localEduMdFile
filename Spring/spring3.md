@@ -1,8 +1,8 @@
 # Spring 3일차
 
-## **`이론`**
+## **이론**
 
-- Controller
+- **`Controller`**
 
   - 사용자 요청(URL 기반)에 해당하는 Controller의 특정 메서드가 호출됨
 
@@ -42,7 +42,7 @@
 
 <br />
 
-- Open API(Application Programming Interface)
+- **`Open API(Application Programming Interface)`**
 
   - 개방형 API
 
@@ -59,7 +59,7 @@
 
 <br />
 
-- RESTful(Representational State Transfer)ful API
+- **`RESTful(Representational State Transfer)ful API`**
 
   - HTTP URI + HTTP Method
 
@@ -82,7 +82,7 @@
 
 <br />
 
-- ORM(Object Relational Mapping)
+- **`ORM(Object Relational Mapping)`**
 
   - 객체-관계 매핑
 

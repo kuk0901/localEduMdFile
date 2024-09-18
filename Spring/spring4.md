@@ -1,8 +1,8 @@
 # Spring 4일차
 
-## **`이론`**
+## **이론**
 
-- Mybatis
+- **`Mybatis`**
 
   - 자바 오브젝트와 SQL문 사이의 자동 Mapping 기능을 지원하는 Object Mapper
 
