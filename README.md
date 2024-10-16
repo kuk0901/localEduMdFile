@@ -1011,3 +1011,133 @@
 
 - 자주 사용되는 어노테이션
 ```
+
+<br />
+
+## **`React`**
+
+- React
+
+```
+- 프레임워크와 라이브러리
+
+- 정의
+
+- 장단점
+
+- install
+
+- 기본 구조
+
+- JSX(Javascript syntax extension)
+
+  - 개념
+
+  - 역할
+
+  - 장점
+
+  - 사용법
+
+  - 문법/규칙
+
+- Rendering Elements
+
+- Props(property)
+
+- Component
+
+  - Function Component
+
+  - Class Component
+
+- State and Lifecycle
+
+  - Lifecycle(생명주기)
+
+- super(props)
+
+- 리액트 불변성
+
+- "Hooks"
+
+  - state 관련 함수
+
+  - lifecycle 관련 함수
+
+  - 최적화 관련 함수
+
+  - Custom Hook
+
+- Handling Event
+
+  - Event Handler(Event Listener)
+
+- Conditional Rendering
+
+- Element Variables(엘리먼트 변수)
+
+- Inline Condition
+
+- List and Keys
+
+- Lifting State Up
+```
+
+<br />
+
+- 브라우저가 그려지는 원리 및 가상돔(Virtual DOM)
+
+- SPA(Single Page Application)
+
+<br />
+
+## **`Kotlin`**
+
+- kotlin
+
+```
+- 특징
+
+- 자료형 작성
+
+- 변수 선언
+
+- 문자열 연산
+
+- null
+
+- afe call(안전 호출) 연산자, non-null 단정 기호
+
+- Casting
+
+- 함수 생성
+
+- Void vs Unit
+
+- 반복문
+
+- 함수형 프로그래밍
+
+  - 개념
+
+  - 요약
+
+- 순수 함수
+
+  - 개념
+
+  - 조건
+
+- 람다식(Lambda Expressions)
+
+- 일급 객체
+
+- 고차 함수(High-order Function)
+
+- 배열
+
+  - arrayOf
+
+  - Array
+```

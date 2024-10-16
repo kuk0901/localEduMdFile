@@ -44,6 +44,44 @@
 
   - 함수형 프로그래밍의 람다식: 다른 함수의 인자로 넘기는 함수, 함수의 결과 값으로 반환하는 함수, 변수에 저장하는 함수
 
+  ```kotlin
+  fun main() {
+    var result: Int
+    val multi1 = {x: Int, y: Int -> x * y}
+
+    val multi2: (Int, Int) -> Int = {x: Int, y: Int -> x * y}
+    // 변수를 함수처럼 사용: 람다식의 선언 자료형은 람다식 매개변수에 자료형이 명시된 경우 생략 가능
+    // = 선언 자료형이 명시되어 있으면 생략 가능
+    // -> 함수의 내용의 결과 반환, 표현식이 여러 줄인 경우 마지막 표현식이 반환
+    // => (Int, Int)
+
+    val multi3: (Int, Int) -> Int = {x: Int, y: Int ->
+      println("x * y")
+      var result = x * y
+      x * y // 마지막 표현식이 리턴
+    }
+
+    // 선언 자료형 생략
+    // 람다식 매개변수에 자료형이 명시된 경우 생략 가능
+    // 함수의 결과가 예측될 경우 결과의 자료형도 생략 가능 -> int + int의 결과는 int
+    // 선언 자료형이 생략되는 경우 콜론없이 할당 연산자를 바로 작성
+    val multi4 = {x: Int, y: Int -> x * y}
+
+    // 람다식 매개변수 자료형의 생략
+    val multi5: (Int, Int) -> Int = {x, y -> x * y}
+
+    // 잘못된 에시: 추론 불가능
+    // val multi6: {x, y -> x * y}
+
+    result = multi(10, 20)
+    println(result)
+  }
+
+  // fun highFunc(sum: (Int, Int) -> Int, a: Int, b: Int): Int
+  // 고차함수형     람다식 매개변수             정수형 매개변수     반환타입
+  // { return sum(a, b) }
+  ```
+
 <br />
 
 - 일급 객체
@@ -88,6 +126,32 @@
   ```
 
   > highFunc 함수는 람다식의 표현문에 따라 결국 a + b의 정수값 결과를 반환 sum(a, b)
+
+  ```kotlin
+  // 일반 함수를 인자나 반환값으로 사용하는 고차함수
+  fun main() {
+    val res1 = sum(3, 2)
+    val res2 = mul(sum(3, 3), 3)
+
+    println("res1: $res1, res2: $res2")
+  }
+
+  fun sum(a: Int, b: Int) = a + b
+  fun mul(a: Int, b: Int) = a * b
+  ```
+
+  ```kotlin
+  fun main() {
+    val res1 = sum(30, 20)
+    val res2 = sum(30, 30)
+    res2 = mul(res2, 3)
+
+    println("res1: $res1, res2: $res2")
+  }
+
+  fun sum2(a: Int, b: Int) = a + b
+  fun mul2(a: Int, b: Int) = a * b
+  ```
 
   <br />
 

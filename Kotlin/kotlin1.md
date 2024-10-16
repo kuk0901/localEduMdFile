@@ -6,7 +6,7 @@
 
   - 자료형에 대한 오류를 미리 잡을 수 있는 정적 언어
 
-  - 널 포인터로 인한 프로그램의 중단을 예방할 수 있음
+  - 널 포인터로 인한 프로그램 중단을 예방할 수 있음
 
   - 객체지향 프로그래밍과 함수형 프로그래밍 모두 가능
 
@@ -24,7 +24,7 @@
 
 - 자료형 작성
 
-  - 자료형을 작성할 때는 절대적으로 모두 대문자로 작성
+  - 자료형을 작성할 때는 절대적으로, 모두 대문자로 작성
 
   - 기본형, 참조형 모두 동일
 
@@ -70,8 +70,8 @@
     var str2 = "World"
     var str3 = "Hello"
 
-    println("str1 === str2: ${str1 === str2}") // 블럭 사용
-    println("str1 === str3: ${str1 === str3}") // 블럭 사용
+    println("str1 === str2: ${str1 === str2}") // false 블럭 사용
+    println("str1 === str3: ${str1 === str3}") // true 블럭 사용
   }
   ```
 
@@ -95,7 +95,7 @@
 
 - null
 
-  - 일반적 변수 선언 시에는 null값 할당 불가
+  - 일반적 변수 선언 시에는 null 값 할당 불가
 
   - null을 허용하려면 자료형 뒤에 물음표(?) 기호를 명시해야 함
 
@@ -104,13 +104,13 @@
     var str1: String = "Hello"
     str1 = null // error
 
-    println("str1: $str1")
+    println("str1: $str1") // Hello
 
     // null을 허용하려면 자료형 뒤에 물음표(?) 기호를 명시
     var str2: String? = "Hello"
     str2 = null
 
-    println("str2: $str2")
+    println("str2: $str2") // null
   }
   ```
 
@@ -142,13 +142,13 @@
 
     str1 = null
 
-    println("str1: $str length: ${str1.length}")
+    println("str1: $str length: ${str1.length}") // error, safe-call(?.) of non-null(!!.) use
 
     // safe-call
     println("str1: $str length: ${str1?.length}")
 
     // assert exp
-    println("str1: $str length: ${str1!!.length}")
+    println("str1: $str length: ${str1!!.length}") // error, null인 경우 length 사용 불가하기 때문
   }
   ```
 
@@ -172,7 +172,7 @@
 
 <br />
 
-- safe call(안전 호출) 연산자는 기본적으로 엘비스 연산자와 함게 사용됨
+- safe call(안전 호출) 연산자는 기본적으로 엘비스 연산자와 함께 사용됨
 
   - ${str1?.length ?: -1} -> null이 아닌 경우 str1?.length, null인 경우 -1
 
@@ -181,14 +181,52 @@
   ```kotlin
   var str1: String? = "hello world"
 
-  printlln("str1: $str1 length: ${str1?.length ?: -1}")
+  val len = if (str1 != null) str1.length else -1
+
+  println("str1: $str1 length: $len")
+  // 결과 -> str1: hello world length: 11
+  ```
+
+  ```kotlin
+  fun main() {
+    val str1: String = "Hello"
+
+    println("str1: $str1") // Hello
+
+    var str2: String? = "Hello"
+    str2 = null
+
+    println("str2: $str2") // null
+  }
+  ```
+
+  ```kotlin
+  fun main() {
+    var str1: String? = "hh"
+    str1 = null
+
+    // println("str: "$str1 length: ${str1.length}") // error
+
+    // safe-call
+    println("str1: $str1 length: ${str1?.length}")
+    // 결과 -> str1: null length: null
+  }
+  ```
+
+  ```kotlin
+  var str1: String? = "hello world"
+
+  str1 = null
+
+  println("str1: $str1 length: ${str1?.length ?: -1}")
+  // str1: null length: -1
   ```
 
 <br />
 
 - Casting
 
-  - 데이터 타입에 물음표가 붙는 경우 기본형 데이터 타입이여도 참조형으로 바뀜
+  - 데이터 타입에 물음표가 붙는 경우 기본형 데이터 타입이어도 참조형으로 바뀜
 
   ```kotlin
   val a: Int = 128
@@ -227,3 +265,23 @@
   ```
 
   > 무조건 객체화됨
+
+  ```kotlin
+  fun main() {
+    var test: Number = 12.2
+    println("$test")
+
+    test = 12
+    println("$test")
+
+    test += 10.0f
+    println("#test")
+
+    val num1: Int = 10
+    val num2: Double = 0.0
+
+    val sum:Int = num1 + num2.toInt()
+
+    println("sum: $sum")
+  }
+  ```
